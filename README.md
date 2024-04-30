@@ -6,10 +6,6 @@ This project implements a simple SSH honeypot in Python. A honeypot is a securit
 Python 3.x
 Paramiko library (pip install paramiko)
 
-<h5>Usage</h5>
-1.Clone the repository to your local machine.
-2.Install the required dependencies using pip:
-'''pip install paramiko'''
 
 <h5>Notes </h5> 
 This project is implemented as part of a college project to explore cybersecurity concepts.
