@@ -12,6 +12,7 @@ Paramiko library (pip install paramiko)
 -Use caution when deploying the SSH honeypot in a production environment. Ensure proper security measures are in place to prevent unauthorized access to   
  sensitive systems. <br />
 -The SSH honeypot is for educational purposes only and should not be used for malicious activities.<br /> 
+-RSA key will change evreytime u use this so go to user>username>.ssh>know_host and delete all the RSA keys there <br /> 
 
 <h3>Contributors</h3>  
 Divyanshu Chaudhary
