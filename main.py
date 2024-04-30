@@ -8,7 +8,7 @@ import os
 SSH_BANNER = "SSH-2.0-OpenSSH_7.4"
 
 # Define the SSH port to listen on
-SSH_PORT = 22
+SSH_PORT = 2222
 
 # Define the path to the RSA key file
 HOST_KEY = 'host.key'
