@@ -8,9 +8,10 @@ Paramiko library (pip install paramiko)
 
 
 <h3>Notes </h3>   
-This project is implemented as part of a college project to explore cybersecurity concepts. <br />
-Use caution when deploying the SSH honeypot in a production environment. Ensure proper security measures are in place to prevent unauthorized access to sensitive systems. <br />
-The SSH honeypot is for educational purposes only and should not be used for malicious activities.<br /> 
+-This project is implemented as part of a college project to explore cybersecurity concepts. <br />
+-Use caution when deploying the SSH honeypot in a production environment. Ensure proper security measures are in place to prevent unauthorized access to   
+ sensitive systems. <br />
+-The SSH honeypot is for educational purposes only and should not be used for malicious activities.<br /> 
 
 <h3>Contributors</h3>  
 Divyanshu Chaudhary
