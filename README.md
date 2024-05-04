@@ -7,17 +7,17 @@ Python 3.x  <br />
 Paramiko library (pip install paramiko)  
 
 <h3>Features planned to add in future</h3>
-*Fake File Directory system
-*Interactive Web Interface
-*Alerting Mechanism
+* Fake File Directory system
+* Interactive Web Interface
+* Alerting Mechanism
 
 
 <h3>Notes </h3>   
-*This project is implemented as part of a college project to explore cybersecurity concepts. <br />
-*Use caution when deploying the SSH honeypot in a production environment. Ensure proper security measures are in place to prevent unauthorized access to   
+* This project is implemented as part of a college project to explore cybersecurity concepts. <br />
+* Use caution when deploying the SSH honeypot in a production environment. Ensure proper security measures are in place to prevent unauthorized access to   
  sensitive systems. <br />
-*The SSH honeypot is for educational purposes only and should not be used for malicious activities.<br /> 
-*RSA key will change evreytime u use this so go to user>username>.ssh>know_host and delete all the RSA keys there <br /> 
+* The SSH honeypot is for educational purposes only and should not be used for malicious activities.<br /> 
+* RSA key will change evreytime u use this so go to user>username>.ssh>know_host and delete all the RSA keys there <br /> 
 
 <h3>Contributors</h3>  
 Divyanshu Chaudhary
