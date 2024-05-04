@@ -63,11 +63,10 @@ class SSHHoneypotServer(threading.Thread):
                 transport.close()
             except Exception as e:
                 print(f"[*] Exception: {e}")
-                continue  # Continue listening for new connections even if an exception occurs
+                continue 
 
 # Main function
 def main():
-    # Start the SSH honeypot server
     server = SSHHoneypotServer()
     server.start()
 
