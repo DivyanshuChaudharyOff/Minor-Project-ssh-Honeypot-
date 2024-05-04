@@ -7,9 +7,9 @@ Python 3.x  <br />
 Paramiko library (pip install paramiko)  
 
 <h3>Features planned to add in future</h3>
-* Fake File Directory system <br />
-* Interactive Web Interface <br />
-* Alerting Mechanism <br />
+- Fake File Directory system <br />
+- Interactive Web Interface <br />
+- Alerting Mechanism <br />
 
 
 <h3>Notes </h3>   
