@@ -16,7 +16,7 @@ This project implements a basic **SSH honeypot** using Python. A honeypot is a c
 
 ## Planned Features for Future Releases
 - **Simulated File System**: Introduce a fake directory structure to further deceive attackers.
-- **Interactive Web Interface**: Provide a user-friendly web-based dashboard for real-time monitoring.
+- ~**Interactive Web Interface**: Provide a user-friendly web-based dashboard for real-time monitoring.~ {Already Added}
 - **Alerting Mechanism**: Implement email or SMS alerts when suspicious activities are detected.
 
 ## Important Notes
