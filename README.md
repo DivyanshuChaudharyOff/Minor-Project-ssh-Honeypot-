@@ -1,24 +1,29 @@
-<h2>SSH Honeypot</h2>
-<h3>Overview</h3>
-This project implements a simple SSH honeypot in Python. A honeypot is a security mechanism designed to detect, deflect, or counteract attempts at unauthorized use of information systems. In the context of SSH, a honeypot can be used to attract and monitor malicious actors attempting to gain unauthorized access to a system.  
+# SSH Honeypot
 
-<h3>Prerequisites</h3>
-Python 3  <br />
-Paramiko library (pip install paramiko)  
+## Table of Contents
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Planned Features for Future Releases](#planned-features-for-future-releases)
+- [Important Notes](#important-notes)
+- [Contributors](#contributors)
 
-<h3>Features planned to add in future</h3>
-- Fake File Directory system <br />
-- Interactive Web Interface <br />
-- Alerting Mechanism <br />
+## Overview
+This project implements a basic **SSH honeypot** using Python. A honeypot is a cybersecurity tool designed to detect, deflect, or counteract unauthorized attempts to access information systems. In the context of SSH, a honeypot can attract and monitor malicious actors attempting to gain unauthorized access to a system, offering valuable insights into attack patterns and methods.
 
+## Prerequisites
+- **Python 3.x**
+- **Paramiko library**: Install via `pip install paramiko`
 
-<h3>Notes </h3>   
-- This project is implemented as part of a college project to explore cybersecurity concepts. <br />
-- Use caution when deploying the SSH honeypot in a production environment. Ensure proper security measures are in place to prevent unauthorized access to   
- sensitive systems. <br />
-- The SSH honeypot is for educational purposes only and should not be used for malicious activities.<br /> 
-- RSA key will change evreytime u use this so go to user>username>.ssh>know_host and delete all the RSA keys there <br /> 
+## Planned Features for Future Releases
+- **Simulated File System**: Introduce a fake directory structure to further deceive attackers.
+- **Interactive Web Interface**: Provide a user-friendly web-based dashboard for real-time monitoring.
+- **Alerting Mechanism**: Implement email or SMS alerts when suspicious activities are detected.
 
-<h3>Contributors</h3>  
-Divyanshu Chaudhary
+## Important Notes
+- This project is part of an academic exploration of cybersecurity concepts and is designed for educational purposes.
+- **Security Warning**: When deploying the SSH honeypot, ensure it is isolated from sensitive systems. Proper network security measures should be in place to avoid unwanted exposure.
+- This SSH honeypot is strictly for educational purposes and must not be used for unethical or malicious activities.
+- **RSA Key Rotation**: The RSA key is regenerated every time the honeypot runs. Be sure to manually clear the `~/.ssh/known_hosts` file before each session to avoid conflicts.
 
+## Contributors
+- **Divyanshu Chaudhary**
