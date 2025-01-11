@@ -27,4 +27,4 @@ This project implements a basic **SSH honeypot** using Python. A honeypot is a c
 
 ## Contributors
 - **Divyanshu Chaudhary**
-- - **Satvick Verma**
+- **Satvick Verma**
